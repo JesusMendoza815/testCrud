@@ -1,0 +1,12 @@
+#btn-carrito,
+#btn-addProducto { 
+    background: transparent;
+    border: 0;
+    transform: scale(1.5);
+    color: white;
+}
+
+img {
+    height: 350px;
+    width: auto;
+}
