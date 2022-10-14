@@ -55,6 +55,6 @@ export const deletee = (method, id) => {
     };
 
     fetch(`https://practica-crud-74892-default-rtdb.firebaseio.com/products/${id}.json`, options)
-        .then(response => response.json())
-        .catch(err => console.error(err));
+    .then(response => response.json())
+    .catch(err => console.error(err));
 }
